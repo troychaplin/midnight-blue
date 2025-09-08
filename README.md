@@ -1,10 +1,10 @@
-# Dark Matter
+# Fractal: WordPress Block Theme
 
 A modern WordPress block theme for troychaplin.ca, currently in early stages of development.
 
 ## Overview
 
-Dark Matter is a custom WordPress block theme designed with a focus on clean, minimal design and optimal performance. Built using the latest WordPress block editor (Gutenberg) capabilities, this theme leverages modern web standards and block-based development patterns.
+Fractal is a custom WordPress block theme designed with a focus on clean, minimal design and optimal performance. Built using the latest WordPress block editor (Gutenberg) capabilities, this theme leverages modern web standards and block-based development patterns.
 
 ## Development Status
 
@@ -17,7 +17,7 @@ Dark Matter is a custom WordPress block theme designed with a focus on clean, mi
 ## Theme Structure
 
 ```
-dark-matter/
+fractal/
 ├── README.md
 ├── style.css
 ├── theme.json          # Theme configuration and global styles
@@ -48,7 +48,3 @@ dark-matter/
 ## License
 
 This theme is licensed under the GPL v2 or later.
-
----
-
-*Last updated: August 2025*
