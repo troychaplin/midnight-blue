@@ -1,5 +1,5 @@
 {
-    "customTemplates": [
+	"customTemplates": [
 		{
 			"name": "page-no-title",
 			"postTypes": [
