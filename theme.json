@@ -1,9 +1,48 @@
 {
+    "customTemplates": [
+		{
+			"name": "page-no-title",
+			"postTypes": [
+				"page"
+			],
+			"title": "Page: No Title"
+		}
+	],
 	"settings": {
 		"appearanceTools": true,
 		"color": {
 			"defaultPalette": false,
 			"palette": [
+				{
+					"color": "#223201",
+					"name": "Pistachio 950",
+					"slug": "custom-primary-950"
+				},
+				{
+					"color": "#41580f",
+					"name": "Pistachio 900",
+					"slug": "custom-primary-900"
+				},
+				{
+					"color": "#4f690b",
+					"name": "Pistachio 800",
+					"slug": "custom-primary-800"
+				},
+				{
+					"color": "#628506",
+					"name": "Pistachio 700",
+					"slug": "custom-primary-700"
+				},
+				{
+					"color": "#8aba00",
+					"name": "Pistachio 600",
+					"slug": "custom-primary-600"
+				},
+				{
+					"color": "#a8dc06",
+					"name": "Pistachio 500",
+					"slug": "custom-primary-500"
+				},
 				{
 					"color": "#c7f526",
 					"name": "Pistachio 400",
@@ -30,57 +69,72 @@
 					"slug": "custom-primary-50"
 				},
 				{
-					"color": "#191919",
+					"color": "#ff7268",
+					"name": "Milano Red 600",
+					"slug": "custom-primary-hover"
+				},
+				{
+					"color": "#141418",
+					"name": "Black 1100",
+					"slug": "custom-black-1100"
+				},
+				{
+					"color": "#16171C",
+					"name": "Black 1000",
+					"slug": "custom-black-1000"
+				},
+				{
+					"color": "#18191f",
 					"name": "Black 950",
 					"slug": "custom-black-950"
 				},
 				{
-					"color": "#3d3d3d",
+					"color": "#353845",
 					"name": "Black 900",
 					"slug": "custom-black-900"
 				},
 				{
-					"color": "#454545",
+					"color": "#3c4050",
 					"name": "Black 800",
 					"slug": "custom-black-800"
 				},
 				{
-					"color": "#4f4f4f",
+					"color": "#454a5f",
 					"name": "Black 700",
 					"slug": "custom-black-700"
 				},
 				{
-					"color": "#5d5d5d",
+					"color": "#555b74",
 					"name": "Black 600",
 					"slug": "custom-black-600"
 				},
 				{
-					"color": "#6d6d6d",
+					"color": "#6a728d",
 					"name": "Black 500",
 					"slug": "custom-black-500"
 				},
 				{
-					"color": "#888888",
+					"color": "#8990a7",
 					"name": "Black 400",
 					"slug": "custom-black-400"
 				},
 				{
-					"color": "#b0b0b0",
+					"color": "#b2b6c7",
 					"name": "Black 300",
 					"slug": "custom-black-300"
 				},
 				{
-					"color": "#d1d1d1",
+					"color": "#d6d8e1",
 					"name": "Black 200",
 					"slug": "custom-black-200"
 				},
 				{
-					"color": "#e7e7e7",
+					"color": "#ededf1",
 					"name": "Black 100",
 					"slug": "custom-black-100"
 				},
 				{
-					"color": "#f6f6f6",
+					"color": "#f6f7f9",
 					"name": "Black 50",
 					"slug": "custom-black-50"
 				},
@@ -277,8 +331,8 @@
 		"elements": {
 			"button": {
 				"color": {
-					"background": "var(--wp--preset--color--custom-secondary-200)",
-					"text": "var(--wp--preset--color--custom-white)"
+					"background": "var(--wp--preset--color--custom-primary-400)",
+					"text": "var(--wp--preset--color--custom-black-true)"
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)"
@@ -286,7 +340,7 @@
 			},
 			"caption": {
 				"color": {
-					"text": "var(--wp--preset--color--custom-white)"
+					"text": "var(--wp--preset--color--custom-black-50)"
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)",
@@ -329,7 +383,7 @@
 			},
 			"heading": {
 				"color": {
-					"text": "var(--wp--preset--color--custom-black-200)"
+					"text": "var(--wp--preset--color--custom-black-100)"
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--work-sans)",
@@ -341,17 +395,17 @@
 			"link": {
 				":hover": {
 					"color": {
-						"text": "var(--wp--preset--color--custom-secondary-400)"
+						"text": "var(--wp--preset--color--custom-primary-400)"
 					}
 				},
 				"color": {
-					"text": "var(--wp--preset--color--custom-secondary-200)"
+					"text": "var(--wp--preset--color--custom-primary-200)"
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--work-sans)",
 					"fontStyle": "normal",
-					"fontWeight": "400",
-					"textDecoration": "underline"
+					"fontWeight": "300",
+					"textDecoration": "none"
 				}
 			}
 		},

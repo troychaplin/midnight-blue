@@ -1,0 +1,15 @@
+<!-- wp:group {"metadata":{"name":"Site Container"},"style":{"dimensions":{"minHeight":"100vh"},"spacing":{"blockGap":"var:preset|spacing|50"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
+<div class="wp-block-group" style="min-height:100vh"><!-- wp:group {"tagName":"header","metadata":{"name":"Sticky Header"},"style":{"spacing":{"margin":{"top":"0"},"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}},"position":{"type":"sticky","top":"0px"},"border":{"top":{"style":"none","width":"0px"},"right":{"style":"none","width":"0px"},"bottom":{"color":"var:preset|color|custom-primary-950","style":"none","width":"0px"},"left":{"style":"none","width":"0px"}}},"backgroundColor":"custom-black-1000","layout":{"type":"constrained"}} -->
+<header class="wp-block-group has-custom-black-1000-background-color has-background" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-color:var(--wp--preset--color--custom-primary-950);border-bottom-style:none;border-bottom-width:0px;border-left-style:none;border-left-width:0px;margin-top:0;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--50)"><!-- wp:template-part {"slug":"header","area":"header","align":"wide"} /--></header>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"main","metadata":{"name":"Main Content"},"style":{"spacing":{"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50"},"margin":{"top":"var:preset|spacing|30"},"blockGap":"0"}},"layout":{"type":"default"}} -->
+<main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:post-content {"align":"full","layout":{"type":"constrained"}} /--></main>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"style":{"layout":{"selfStretch":"fill","flexSize":null}}} -->
+<div aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:template-part {"slug":"footer","area":"footer"} /--></div>
+<!-- /wp:group -->
