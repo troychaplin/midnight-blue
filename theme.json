@@ -300,7 +300,15 @@
 		"blocks": {
 			"core/button": {
 				"border": {
-					"radius": "8px"
+					"radius": "10px"
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "0.85rem",
+						"left": "2rem",
+						"right": "2rem",
+						"top": "0.85rem"
+					}
 				},
 				"typography": {
 					"fontStyle": "normal",
@@ -309,7 +317,7 @@
 			},
 			"core/image": {
 				"border": {
-					"radius": "8px"
+					"radius": "10px"
 				}
 			},
 			"core/quote": {
