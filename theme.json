@@ -316,12 +316,16 @@
 				"border": {
 					"color": null,
 					"left": {
-						"color": "var(--wp--preset--color--light-yellow)",
+						"color": "#c7f526",
 						"style": "solid",
-						"width": "3px"
+						"width": "2px"
 					},
+					"radius": "10px",
 					"style": null,
 					"width": null
+				},
+				"color": {
+					"background": "var(--wp--preset--color--custom-black-1100)"
 				},
 				"spacing": {
 					"blockGap": "var(--wp--preset--spacing--20)",
@@ -330,10 +334,10 @@
 						"right": "0"
 					},
 					"padding": {
-						"bottom": "var(--wp--preset--spacing--20)",
-						"left": "var(--wp--preset--spacing--50)",
-						"right": "0",
-						"top": "var(--wp--preset--spacing--20)"
+						"bottom": "var(--wp--preset--spacing--50)",
+						"left": "var(--wp--preset--spacing--60)",
+						"right": "var(--wp--preset--spacing--30)",
+						"top": "var(--wp--preset--spacing--40)"
 					}
 				}
 			}
